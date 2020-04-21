@@ -25,7 +25,7 @@
 - Modal with description of each project
 - Link to each project
 
-*Conatact Page*
+*Contact Page*
 - Submission form linked to Firebase
 - Standard contact info
 
