@@ -8,6 +8,17 @@
 **Status:**
 - In Progress
 
+**MVP**
+- Include name, email address and phone number
+- Links to GitHub profile & LinkedIn page
+- Link to PDF of resume
+- List of projects to include: 
+    * project title
+    * link to deployed version
+    * link to code on GitHub
+- Mobile-responsive
+- Readability
+
 **Design Concept:**
 
 *Home Page*

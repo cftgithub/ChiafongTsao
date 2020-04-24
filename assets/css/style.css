@@ -62,7 +62,7 @@
 	filter: blur(20px);
 	position: relative;
 	top: -315px;
-/* 	transform: scale(1.05); */
+ 	transform: scale(1.05); 
 	z-index: -1;
 } */
 
@@ -72,4 +72,9 @@ h1 {
 .main {
     width: auto;
     margin: 32px;
+    background-color: black;
+}
+img {
+    
+    background-blend-mode: luminosity;
 }
