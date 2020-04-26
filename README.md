@@ -36,14 +36,15 @@
 - Modal with description of each project
 - Link to each project
 
-*Contact Page*
-- Submission form linked to Firebase
-- Standard contact info
-
 **Technologies Used:**
-- Firebase
 - Bootstrap
 - Font Awesome
 - JavaScript
 - jQuery
 
+**Challenges**
+- Coming up with a design to incorporate all information in one page without looking cluttered.
+    * Solution: Selecting 
+
+**Future Upgrades**
+- Separate portfolio page for my work

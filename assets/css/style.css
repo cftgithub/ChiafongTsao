@@ -1,14 +1,9 @@
-.jumbotron {
-    margin-bottom: 0px;
-    /* padding-bottom: 0px; */
-}
-   
 .bubble {
 	height: 250px;
-	width: 70%;
+	width: 50%;
 	min-width: 200px;
 	background: #fff;
-	display: block;
+	display: inline-block;
 	margin: 0 auto;
     border-radius: 30px;
     border: 8px solid #666;
@@ -41,6 +36,7 @@
     margin-left: -20px;
 } */
 
+
 .pointer {
 	height: 40px;
 	width: 40px;
@@ -53,8 +49,8 @@
 	border-radius: 0 0 10px 0;
 	margin-top: -23px;
 	position: relative;
-	left: calc(0.5vw - 50px);
-}
+	left: calc(0.5vw - 500px);
+} 
 
 
 /* .blurred {
@@ -69,11 +65,13 @@
 h1 {
     color: rebeccapurple
 }
-.main {
+
+/* .main {
     width: auto;
     margin: 32px;
     background-color: black;
-}
+} */
+
 img {
     
     background-blend-mode: luminosity;

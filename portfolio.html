@@ -1,108 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Firebase -->
-<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
-<!-- CSS reset -->
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!-- CSS stylesheet -->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+  <!-- CSS reset -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/67e520da17.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/67e520da17.js" crossorigin="anonymous"></script>
 
-    <title>Portfolio</title>
+  <title>Chiafong Tsao | Portfolio</title>
 </head>
+
 <body>
-    <h1>Portfolio Page</h1>
+  <div class="container">
+    <ul class="nav justify-content-end font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Chiafong</a>
+      </li>
+    </ul>
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Project Gallery</h1>
 
-    <div class="container">
+    <hr class="mt-2 mb-5">
 
-        <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
-      
-        <hr class="mt-2 mb-5">
-      
-        <div class="row text-center text-lg-left">
-      
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-                </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
-                </a>
-          </div>
+    <div class="row text-center text-lg-left">
+
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://melaniebott2691.github.io/rocinante/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/recetteRoulette.png"
+              alt="Image of Recipe Search App">
+            <div class="card-body">
+              <h5 class="card-title">Recette Roulette</h5>
+            </div>
+          </a>
         </div>
-      
       </div>
-      <!-- /.container -->
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://cftgithub.github.io/unit-4-game/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/crystalGame.png" alt="Image of Crystal Number Game">
+            <div class="card-body">
+              <h5 class="card-title">Crystal Collector</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://cftgithub.github.io/Word-Guess-Game/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/wordGame.png" alt="Image of Word Guess Game">
+            <div class="card-body">
+              <h5 class="card-title">Word Guess Game</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://cftgithub.github.io/TriviaGame/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/seussGame.png" alt="Image of Dr. Seuss Trivia Game">
+            <div class="card-body">
+              <h5 class="card-title">Dr. Seuss Trivia Game</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://cftgithub.github.io/RPS-Multiplayer/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/RPS.png" alt="Image of Rock Paper Scissors Game">
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissors</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6">
+        <div class="card h-100">
+          <a href="https://cftgithub.github.io/GifTastic/" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/images/gifTastic.png" alt="Image of Gif Search Tool">
+            <div class="card-body">
+              <h5 class="card-title">API Search</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
 
 
-    <!-- script to run modal -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- script to run modal -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
