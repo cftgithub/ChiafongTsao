@@ -19,7 +19,7 @@
 - Mobile-responsive
 - Readability
 
-**Design Concept:**
+**Nice to haves:**
 
 *Home Page*
 - Top: Descriptive section
@@ -43,8 +43,9 @@
 - jQuery
 
 **Challenges**
-- Coming up with a design to incorporate all information in one page without looking cluttered.
-    * Solution: Selecting 
+- Deciding on layout and design
+    * Solution: Start with a baseline design to complete a deliverable product and then modifications can be made later to improve UI/UX
 
 **Future Upgrades**
-- Separate portfolio page for my work
+- Separate team project to a separate page
+- Add more links and information
