@@ -12,86 +12,144 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" /> -->
-    <!-- slick-theme.css for default styling -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/67e520da17.js" crossorigin="anonymous"></script>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
     <title>Chiafong Tsao | Fullstack Developer</title>
 </head>
 
 <body>
-    <div class="container main">
-        <ul class="nav justify-content-end font-weight-bold">
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="project.html">Team Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Chiafong</a>
-            </li>
-        </ul>
-        <div class="container bubble col-lg-6 col-md-6 col-6">
-            <h1 class="name">Hi!<br>My name is Chiafong,</h1>
-            <br>
-            <h3>I am a problem solver!</h3>
-        </div>
-        <div class="pointer"></div>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-8">
-                    <div class="card">
-                        <img src="assets/images/bitmoji.png" class="card-img-top img-thumbnail"
-                            alt="Image of Chiafong Tsao">
-                        <div class="card-body">
-                            <h4 class="card-title">Chiafong Tsao</h4>
-                            <h6 class="card-subtitle mb-2">Fullstack Developer</h6>
-                            <h6 class="card-subtitle mb-2">chiafongt@gmail.com</h6>
-                            <h6 class="card-subtitle mb-2">801-557-5453</h6>
-                            <p class="card-text">Let's discuss how I can make life easier for you.</p>
-                            <div class="icons">
-                                <!--Github icon-->
-                                <a class="gitHubIcon" href="https://github.com/cftgithub?tab=repositories"
-                                    target="_blank">
-                                    <i class="fab fa-github-square white-text mr-4"> </i>
-                                </a>
-                                <!--Linkedin icon-->
-                                <a class="liIcon" href="https://www.linkedin.com/feed/?trk=onboarding-landing"
-                                    target="_blank">
-                                    <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                                </a>
-                                <!-- Facebook icon-->
-                                <a class="fbIcon" href="https://www.facebook.com/chiafong.tsao" target="_blank">
-                                    <i class="fab fa-facebook-f white-text mr-4"> </i>
-                                </a>
+            <a class="navbar-brand" href="#">Chiafong Tsao // Fulltack Developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Collaborative Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Chiafong</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="container main"> -->
+    <!-- Header -->
+    <header class="bg-secondary py-5 mb-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="type col-lg-12">
+                    <span id="myElement">This is What I Do...</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 mb-5">
+
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active">
+                            <img src="assets/images/carouselBulb.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="display-4">Problem Solver</h3>
+                                <p class="lead">Everything is possible...I will find a solution to your problem.</p>
+                            </div>
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item">
+                            <img src="assets/images/carouselNetwork.png" class="d-block w-100 bg-dark">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="display-4">Collaborative</h3>
+                                <p class="lead">I am a "people" person. I have the ability to work with and communicate with people from diverse backgrounds.</p>
+                            </div>
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item">
+                            <img src="assets/images/carouselComputer.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="display-4">Passion</h3>
+                                <p class="lead">Creating and building websites excites me. I am constantly thinking about code.</p>
                             </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div class="list col-lg-8 col-md-6 col-4">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Node.js</li>
-                    </ul>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card rounded-0">
+                    <img id="bitmoji" src="assets/images/bitmoji.png" class="card-img-top img-thumbnail rounded-0" style="height: 310px;"
+                        alt="Bitmoji of Chiafong Tsao">
+                    <div class="card-body">
+                        <h5 class="card-title">Chiafong Tsao<br>Fullstack Developer</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Email: chiafongt@gmail.com</li>
+                            <li class="list-group-item">Phone: 801-557-5453</li>
+                            <li class="list-group-item">View Resume</li>
+                          </ul>
+                        <div class="icons text-center">
+                            
+                            <!--Linkedin icon-->
+                            <a class="liIcon" href="https://www.linkedin.com/in/chiafong-tsao-6b018324/"
+                                target="_blank">
+                                <i class="fab fa-linkedin-in white-text mr-5"> </i>
+                            </a>
+                            <!--Github icon-->
+                            <a class="gitHubIcon" href="https://github.com/cftgithub?tab=repositories" target="_blank">
+                                <i class="fab fa-github-square white-text mr-5"> </i>
+                            </a>
+                            <!-- Facebook icon-->
+                            <a class="fbIcon" href="https://www.facebook.com/chiafong.tsao" target="_blank">
+                                <i class="fab fa-facebook-f white-text mr-3"> </i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- /.container -->
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Chiafong Tsao 2020</p>
+        </div>
+    </footer>
+
 
     <!-- script to run Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -100,6 +158,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="typeit.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
@@ -107,10 +167,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
-    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script> -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

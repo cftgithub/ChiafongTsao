@@ -16,35 +16,53 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/67e520da17.js" crossorigin="anonymous"></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
     <title>Chiafong | Projects</title>
 </head>
 
 <body>
-    <div class="container">
-        <ul class="nav justify-content-end font-weight-bold">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Team Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Chiafong</a>
-            </li>
-        </ul>
-        <h1 class="font-weight-bold text-center text-lg-left mt-4 mb-0">Project Gallery</h1>
-
-        <hr class="mt-2 mb-5">
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Chiafong Tsao // Fullstack Developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Collaborative Projects
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Chiafong</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-secondary py-5 mb-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="type col-lg-12">
+                    <span id="projects">Collaborative Projects</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="title container">
         <div class="row text-center text-lg-left">
             <div class="col-lg-4 col-md-4 col-6 mb-5">
                 <div class="card h-100">
-                    <a href="https://github.com/cftgithub/rocinante" target="_blank" class="d-block mb-4 h-100">
+                    <a href="https://melaniebott2691.github.io/rocinante/" target="_blank" class="d-block mb-4 h-100">
                         <img class="img-fluid img-thumbnail" src="assets/images/recetteRoulette.png"
                             alt="Image of Recipe Search App">
                         <div class="card-body">
@@ -55,9 +73,8 @@
             </div>
             <div class="col-lg-4 col-md-4 col-6 mb-5">
                 <div class="card h-100">
-                    <a href="https://github.com/cftgithub/allyApp" target="_blank" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/project2.png"
-                            alt="Image of allyApp">
+                    <a href="https://ally-resources.herokuapp.com/" target="_blank" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/project2.png" alt="Image of allyApp">
                         <div class="card-body">
                             <h5 class="card-title">allyApp</h5>
                         </div>
@@ -67,8 +84,7 @@
             <div class="col-lg-4 col-md-4 col-6 mb-5">
                 <div class="card h-100">
                     <a href="" target="_blank" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/coming-soon.jpg"
-                            alt="Project 3 Image">
+                        <img class="img-fluid img-thumbnail" src="assets/images/coming-soon.jpg" alt="Project 3 Image">
                         <div class="card-body">
                             <h5 class="card-title">Project 3</h5>
                         </div>
@@ -79,6 +95,11 @@
     </div>
     <!-- /.container -->
 
+    <footer class="py-5 bg-dark fixed-bottom">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Chiafong Tsao 2020</p>
+        </div>
+    </footer>
 
     <!-- script to run modal -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -90,6 +111,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="typeit.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>

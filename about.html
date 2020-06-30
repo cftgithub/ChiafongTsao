@@ -8,44 +8,63 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/67e520da17.js" crossorigin="anonymous"></script>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
     <title>Chiafong Tsao | About</title>
 </head>
 
 <body>
-    <div class="container">
-        <ul class="nav justify-content-end font-weight-bold">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="project.html">Team Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Chiafong</a>
-            </li>
-        </ul>
-        <h1 class="font-weight-bold text-center text-lg-left mt-4 mb-0">About Chiafong</h1>
-        <hr class="mt-2 mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Chiafong Tsao // Fullstack Developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Collaborative Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Chiafong
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-secondary py-5 mb-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="type col-lg-12">
+                    <span id="projects">About Chiafong</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="title container">
         <div class="container px-5 about">
             <div class="photo float-left pl-5 pr-4 pt-5 pb-1">
-                <img class="border rounded" src="assets/images/profile_pic.jpg" alt="Photo of Chiafong Tsao" width="140" height="200">
+                <img class="border border-secondary rounded" src="assets/images/profile_pic.jpg" alt="Photo of Chiafong Tsao" width="140"
+                    height="200">
             </div>
-            <div class="article border border-white rounded p-5 mt-4 bg-white">
-                <p>"If it ain't broke, don't fix it"...or NOT!!!
-                </p>
+            <div class="article border border-secondary rounded p-5 mt-4">
                 <p>I am passionate about fixing things and making them better. Today, technology (and
                     life) is moving at hyper speed and in order to keep up,
                     you must develop improvements before it is needed. Waiting until something breaks
@@ -75,7 +94,13 @@
             </div>
         </div>
     </div>
-    <!-- script to run modal -->
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Chiafong Tsao 2020</p>
+        </div>
+    </footer>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
