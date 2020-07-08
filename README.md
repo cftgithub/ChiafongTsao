@@ -2,7 +2,7 @@
 ## *Professional Web Porfolio*
 
 **Purpose:**
-- To create a webpage showcasing skills and products produced
+- To create a webpage showcasing accomplishments
 - A resource for recruiters
 
 **Status:**

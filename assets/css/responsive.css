@@ -1,44 +1,49 @@
-@media only screen and (max-width: 1230px){
-    .pointer {
-        display: none;
-    } 
-    .name {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 25px;
-    }
-    .bubble {
-        height: 200px;
+@media only screen and (max-width: 1200px){
+    li.list-group-item {
+        font-size: 14px;
     }
 }
-@media only screen and (max-width: 990px){
-    .name {
-        font-size: 25px;
+@media only screen and (max-width: 1000px){
+    #myElement, #projects, #portfolio {
+        font-size: 45px;
     }
-    h3 {
-        font-size: 20px;
-    }
-    .bubble {
-        height: 175px;
-    }    
-}
-@media only screen and (max-width: 770px){
-    .name {
-        font-size: 20px;
-    }
-    h3 {
+    h5.card-title {
         font-size: 15px;
     }
-    .bubble {
-        height: 150px;
+    li.list-group-item {
+        font-size: 11px;
     }
-    .list {
+    .icons {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 770px){
+    #myElement, #projects, #portfolio {
+        font-size: 35px;
+    }
+    h5.card-title {
+        font-size: 15px;
+    }
+    li.list-group-item {
+        font-size: 11px;
+    }
+    .icons {
+        font-size: 15px;
+    }
+    /* .carousel-inner img {
+        width: 80%;
+        height: 80%
+    } */
+    h3.display-4, p.lead {
+        font-size: 10px;
+    }
+    /* carousel breaks */
+    /* .list {
         font-size: 25px;
     }
     ul {
         padding-left: 0px;
-    }
+    } */
 }
 @media only screen and (max-width: 570px){    
     .list {
