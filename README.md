@@ -1,4 +1,4 @@
-# Chiafong Tsao-Portfolio
+# Chiafong Tsao - Portfolio
 ## *Professional Web Porfolio*
 
 **Purpose:**
