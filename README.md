@@ -19,7 +19,7 @@
 - Mobile-responsive
 - Readability
 
-**Nice to haves:**
+**Design Plan:**
 
 *Home Page*
 - Top: Descriptive section
