@@ -42,6 +42,12 @@ body {
     background-color: #f2f5fa;
 }
 
+.pic {
+    border-style: solid;
+    border-color: #003585;
+    border-width: 3px !important;
+}
+
 .about {
     padding: 60px
 }
