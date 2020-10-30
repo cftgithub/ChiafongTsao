@@ -31,7 +31,15 @@ body {
 .card-title {
     text-align: center;
     font-weight: bolder;
-    color: #003585;   
+    color: #003585;
+}
+
+h6.card-title {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding-bottom: 0px;
 }
 
 /* ***************about.html*************** */
