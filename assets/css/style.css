@@ -82,8 +82,8 @@ h6.card-title {
 }
 
 .carousel-item {
-    height: 60vh;
-    min-height: 350px;
+    height: 58vh;
+    /* min-height: 350px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;

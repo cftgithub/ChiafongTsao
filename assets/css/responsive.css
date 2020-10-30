@@ -2,6 +2,9 @@
     li.list-group-item {
         font-size: 14px;
     }
+    .carousel-item {
+        height: 57vh;
+    }
 }
 @media only screen and (max-width: 1000px){
     #myElement, #projects, #portfolio {
@@ -10,11 +13,17 @@
     h5.card-title {
         font-size: 15px;
     }
+    h6.card-title {
+        font-size: 13px;
+    }
     li.list-group-item {
         font-size: 11px;
     }
     .icons {
         font-size: 15px;
+    }
+    .carousel-item{
+        height: 55vh;
     }
 }
 @media only screen and (max-width: 770px){
@@ -30,23 +39,32 @@
     .icons {
         font-size: 15px;
     }
-    /* .carousel-inner img {
-        width: 80%;
-        height: 80%
-    } */
+    .carousel-item {
+        height: 52vh;
+    }
     h3.display-4, p.lead {
         font-size: 10px;
     }
     /* carousel breaks */
-    /* .list {
+    .list {
         font-size: 25px;
     }
     ul {
         padding-left: 0px;
-    } */
+    }
+    .homeCard {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media only screen and (max-width: 570px){    
     .list {
         font-size: 25px;
+    }
+    .homeCard {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
