@@ -2,7 +2,7 @@ const instance = new TypeIt("#myElement", {
     speed: 170,
     loop: true
 })
-    .type("", {delay: 1000})
+    .type(" ", { delay: 1000 })
     .type("HTML", { delay: 1000 })
     .delete(4)
     .type("CSS", { delay: 1000 })
@@ -26,7 +26,18 @@ const instance = new TypeIt("#myElement", {
     .type("Git", { delay: 1000 })
     .go();
 
-    // const typing = new TypeIt("#projects", {
-    //     loop: true
-    //   });
-    //   typing.go();
+function currentDate() {
+    var today = new Date();
+    var month = today.getMonth();
+    var monthlist = [
+        "January", "February", "March", "April", "May", "June", "July",
+        "August", "September", "October", "November", "December"
+    ];
+    var date = today.getDate() + ", ";
+    var year = today.getFullYear();
+
+    console.log(month);
+    var displayDate = monthlist[month] + " " + date + year;
+    document.getElementById("date").innerHTML = "Today is: " + displayDate;
+}
+currentDate();
