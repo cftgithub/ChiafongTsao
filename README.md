@@ -22,9 +22,9 @@
 **Design Plan:**
 
 *Home Page*
-- Top: Descriptive section
+- Top: Descriptive section to include current date
 - Middle: Profile image and carousel displaying different skills and abilities
-- bottom: Thumbnails of links to portfolio, project and contact pages
+- Bottom: Thumbnails of links to portfolio, project and contact pages
 
 *Portfolio Page*
 - Thumbnails of personal project
