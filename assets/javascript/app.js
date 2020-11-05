@@ -28,6 +28,10 @@ const instance = new TypeIt("#myElement", {
 
 function currentDate() {
     var today = new Date();
+    var day = today.getDay();
+    var dayofweek = [
+        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fiday", "Saturday"
+    ];
     var month = today.getMonth();
     var monthlist = [
         "January", "February", "March", "April", "May", "June", "July",
@@ -37,7 +41,7 @@ function currentDate() {
     var year = today.getFullYear();
 
     console.log(month);
-    var displayDate = monthlist[month] + " " + date + year;
+    var displayDate = dayofweek[day] + ", " + monthlist[month] + " " + date + year;
     document.getElementById("date").innerHTML = "Today is: " + displayDate;
 }
 currentDate();
