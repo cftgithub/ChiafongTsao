@@ -42,6 +42,6 @@ function currentDate() {
 
     console.log(month);
     var displayDate = dayofweek[day] + ", " + monthlist[month] + " " + date + year;
-    document.getElementById("date").innerHTML = "Today is: " + displayDate;
+    document.getElementById("date").innerHTML = "Today is " + displayDate;
 }
 currentDate();
